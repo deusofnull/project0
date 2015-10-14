@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_app_button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:text="Movie App"
+        android:background="#078e2b"
+        android:width="100dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scores_app_button"
+        android:layout_below="@+id/movie_app_button"
+        android:layout_centerHorizontal="true"
+        android:text="Scores App"
+        android:background="#078e2b"
+        android:width="100dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/library_app_button"
+        android:text="Library App"
+        android:layout_below="@+id/scores_app_button"
+        android:layout_alignLeft="@+id/scores_app_button"
+        android:layout_alignStart="@+id/scores_app_button"
+        android:background="#078e2b"
+        android:width="100dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/build_app_button"
+        android:text="Build It Bigger"
+        android:layout_below="@+id/library_app_button"
+        android:layout_centerHorizontal="true"
+        android:background="#078e2b"
+        android:width="100dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/xyz_app_button"
+        android:text="XYZ Reader"
+        android:layout_below="@+id/build_app_button"
+        android:layout_centerHorizontal="true"
+        android:background="#078e2b"
+        android:width="100dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/capstone_app_button"
+        android:text="Capstone: My Own App"
+        android:layout_below="@+id/xyz_app_button"
+        android:layout_centerHorizontal="true"
+        android:background="#d211ab"
+        android:width="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nanodegree Apps"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+
+
+</RelativeLayout>
+
+

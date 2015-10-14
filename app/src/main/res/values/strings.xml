@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">project0</string>
+    <string name="action_settings">Settings</string>
+    <string name="movie_app_button">movie_app_button</string>
+    <string name="scores_app_button">scores_app_button</string>
+    <string name="library_app_button">library_app_button</string>
+    <string name="build_it_app_button">build_it_app_button</string>
+    <string name="xyz_reader_app_button">xyz_reader_app_button</string>
+    <string name="capstone_app_button">capstone_app_button</string>
+</resources>
